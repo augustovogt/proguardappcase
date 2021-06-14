@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "787575720322",
+    "firebase_url": "https://banco-estado-empresas.firebaseio.com",
+    "project_id": "banco-estado-empresas",
+    "storage_bucket": "banco-estado-empresas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787575720322:android:b29021204fe82fed6d679b",
+        "android_client_info": {
+          "package_name": "cl.bancoestado.omt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "787575720322-1ealvsldptsa9nl7bechvos2amsqc172.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-GA5FrawBe_D48VPlA0cQ1wnYUrL2iTQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "787575720322-1ealvsldptsa9nl7bechvos2amsqc172.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "787575720322-ie82gpv51g0orppjcff9hrvcemhibsho.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "cl.bancoestado.omt"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

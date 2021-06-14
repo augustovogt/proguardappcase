@@ -1,0 +1,60 @@
+// Add your native dependencies here:
+
+// Uncomment to add recyclerview-v7 dependency
+//dependencies {
+//	compile 'com.android.support:recyclerview-v7:+'
+//}
+// apply plugin: 'com.google.gms.google-services'  // Google Services plugin
+
+android {  
+  defaultConfig {  
+    generatedDensities = []
+    applicationId = "cl.bancoestado.omt"
+    ndk.abiFilters 'armeabi-v7a','arm64-v8a','x86','x86_64'
+    //override supported platforms
+    // ndk {
+    //       abiFilters.clear()
+    //   		abiFilters "armeabi-v7a"
+ 		// }
+  
+  } 
+  
+      buildTypes {
+        release {
+            // Enables code shrinking, obfuscation, and optimization for only
+            // your project's release build type.
+            minifyEnabled true
+
+            // Enables resource shrinking, which is performed by the
+            // Android Gradle plugin.
+            shrinkResources false
+
+            // Includes the default ProGuard rules files that are packaged with
+            // the Android Gradle plugin. To learn more, go to the section about
+            // R8 configuration files.
+            def absolutePathToAppResources = getAppResourcesPath()
+            proguardFiles getDefaultProguardFile(
+                    'proguard-android-optimize.txt'),
+                    "$absolutePathToAppResources/Android/proguard-rules.pro"
+        }
+    }  
+
+    
+
+
+  aaptOptions {  
+    additionalParameters "--no-version-vectors"  
+  }  
+ 
+} 
+
+// This configuration sets the version for notifications plugin.
+// Without this parameter, push-plugin and SafetyNetHelper collide.
+project.ext {
+  googlePlayServicesVersion = "15.0.0"
+}
+
+dependencies {
+  //implementation 'com.google.firebase:firebase-config:16.3.0'
+   implementation 'com.google.firebase:firebase-messaging:18.0.0'
+}

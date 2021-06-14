@@ -1,0 +1,501 @@
+MacBook-Pro:appcase avogt$ tns run android --bundle --env.uglify --release --keyStorePath ./appcasebech-dev.keystore --keyStorePassword mobile-apps-publisher --keyStoreAlias EMT --keyStoreAliasPassword mobile-apps-publisher
+Searching for devices...
+Copying template files...
+Platform android successfully added. v6.3.1
+Preparing project...
+Hash: 3c32c6a8de8c7c23af15
+Version: webpack 4.6.0
+Time: 31149ms
+Built at: 06/14/2021 2:18:04 PM
+                             Asset       Size  Chunks             Chunk Names
+                        runtime.js    2.9 KiB       0  [emitted]  runtime
+                         vendor.js   2.73 MiB       1  [emitted]  vendor
+                         bundle.js    189 KiB       2  [emitted]  bundle
+                 images/rooted.jpg    125 KiB          [emitted]  
+images/LaunchScreen-AspectFill.png    115 KiB          [emitted]  
+                    images/man.png   5.37 KiB          [emitted]  
+images/NoInternetScreen-Center.png   68.5 KiB          [emitted]  
+                 images/rooted.png    288 KiB          [emitted]  
+          images/ServicesError.png   53.3 KiB          [emitted]  
+         images/ServicesError1.png   53.3 KiB          [emitted]  
+           cert/bancoestado.cl.cer   1.82 KiB          [emitted]  
+                images/loading.gif   37.8 KiB          [emitted]  
+                      package.json  130 bytes          [emitted]  
+               tns-java-classes.js    0 bytes          [emitted]  
+  [8] ../node_modules/rxjs/_esm5/internal/Observable.js + 1 modules 4.75 KiB {1} [built]
+      |    2 modules
+ [20] ../node_modules/rxjs/_esm5/internal/Subscription.js + 2 modules 5.56 KiB {1} [built]
+      |    3 modules
+ [29] ./services/configuration-handler.service.ts 6.47 KiB {2} [built]
+ [46] ./services/app-firebase-service.ts 6.72 KiB {2} [built]
+ [79] ./services/app-enviroment-service.ts 1.91 KiB {2} [built]
+ [80] ./services/storage-handler.service.ts 3.21 KiB {2} [built]
+ [81] ./services/veritran-sdk-handler.service.ts 16.4 KiB {2} [built]
+[116] ./services/webview-events-handler-service.ts + 1 modules 26.6 KiB {2} [built]
+      | ./services/webview-events-handler-service.ts 26.1 KiB [built]
+      | ./models/device-response.model.ts 379 bytes [built]
+[117] ./services/entrust-soft-token.service.ts 6.35 KiB {2} [built]
+[118] ./services/gallery-handler.service.ts 950 bytes {2} [built]
+[119] ./services/encrypt-handler.service.ts 3.91 KiB {2} [built]
+[120] ./services/sms-handler.service.ts 1.69 KiB {2} [built]
+[121] ./services/share-handler.service.ts 6.23 KiB {2} [built]
+[274] ./app.module.ts + 13 modules 59.9 KiB {2} [built]
+      | ./app.module.ts 4.45 KiB [built]
+      | ./app.component.ts 402 bytes [built]
+      | ./app.routes.ts 2.13 KiB [built]
+      | ./services/fingerprint-auth-handler.service.ts 3.3 KiB [built]
+      | ./services/tmp-file-handler.service.ts 1.25 KiB [built]
+      | ./services/app-enable-push-message-service.ts 6.77 KiB [built]
+      | ./services/app-information-device-service.ts 422 bytes [built]
+      | ./services/app-upgrade-store-service.ts 16.3 KiB [built]
+      | ./services/app-display-guard-service.ts 6.05 KiB [built]
+      | ./services/app-root-device-service.ts 2.02 KiB [built]
+      |     + 4 hidden modules
+[546] ./main.ts 1.47 KiB {2} [built]
+    + 615 hidden modules
+Webpack compilation complete.
+nativescript-plugin-firebase: /Users/avogt/carcasa/migracion/appcase_ns6.5.0/carcasa_bepass/obfuscaded/appcase/platforms/android/.pluginfirebaseinfo not found, forcing prepare!
+nativescript-plugin-firebase: running release build or change in environment detected, forcing prepare!
+Built aar for nativescript-barcodescanner
+Built aar for nativescript-contacts-lite
+Built aar for nativescript-fingerprint-auth
+Built aar for nativescript-plugin-entrust
+Built aar for nativescript-plugin-firebase
+Built aar for nativescript-sms-inbox
+Built aar for nativescript-vt-token-plugin
+Project successfully prepared (android)
+Configure firebase
+Copy /Users/avogt/carcasa/migracion/appcase_ns6.5.0/carcasa_bepass/obfuscaded/appcase/app/App_Resources/Android/google-services.json to /Users/avogt/carcasa/migracion/appcase_ns6.5.0/carcasa_bepass/obfuscaded/appcase/platforms/android/app/google-services.json.
+Building project...
+Gradle build...
+         + setting applicationId
+         + applying user-defined configuration from /Users/avogt/carcasa/migracion/appcase_ns6.5.0/carcasa_bepass/obfuscaded/appcase/app/App_Resources/Android/app.gradle
+         + using android X library androidx.legacy:legacy-support-v4:1.0.0
+         + adding nativescript runtime package dependency: nativescript-optimized
+         + adding aar plugin dependency: /Users/avogt/carcasa/migracion/appcase_ns6.5.0/carcasa_bepass/obfuscaded/appcase/node_modules/nativescript-barcodescanner/platforms/android/nativescript_barcodescanner.aar
+         + adding aar plugin dependency: /Users/avogt/carcasa/migracion/appcase_ns6.5.0/carcasa_bepass/obfuscaded/appcase/node_modules/nativescript-barcodescanner/platforms/android/barcodescanner-release-2.1.6.aar
+         + adding aar plugin dependency: /Users/avogt/carcasa/migracion/appcase_ns6.5.0/carcasa_bepass/obfuscaded/appcase/node_modules/nativescript-camera/platforms/android/nativescript_camera.aar
+         + adding aar plugin dependency: /Users/avogt/carcasa/migracion/appcase_ns6.5.0/carcasa_bepass/obfuscaded/appcase/node_modules/nativescript-contacts-lite/platforms/android/nativescript_contacts_lite.aar
+         + adding aar plugin dependency: /Users/avogt/carcasa/migracion/appcase_ns6.5.0/carcasa_bepass/obfuscaded/appcase/node_modules/nativescript-fingerprint-auth/platforms/android/nativescript_fingerprint_auth.aar
+         + adding aar plugin dependency: /Users/avogt/carcasa/migracion/appcase_ns6.5.0/carcasa_bepass/obfuscaded/appcase/node_modules/nativescript-plugin-entrust/platforms/android/libs/app-debug.aar
+         + adding aar plugin dependency: /Users/avogt/carcasa/migracion/appcase_ns6.5.0/carcasa_bepass/obfuscaded/appcase/node_modules/nativescript-plugin-entrust/platforms/android/nativescript_plugin_entrust.aar
+         + adding aar plugin dependency: /Users/avogt/carcasa/migracion/appcase_ns6.5.0/carcasa_bepass/obfuscaded/appcase/node_modules/nativescript-plugin-firebase/platforms/android/firebase-release.aar
+         + adding aar plugin dependency: /Users/avogt/carcasa/migracion/appcase_ns6.5.0/carcasa_bepass/obfuscaded/appcase/node_modules/nativescript-plugin-firebase/platforms/android/nativescript_plugin_firebase.aar
+         + adding aar plugin dependency: /Users/avogt/carcasa/migracion/appcase_ns6.5.0/carcasa_bepass/obfuscaded/appcase/node_modules/nativescript-rootbeer/platforms/android/rootbeerlib-release.aar
+         + adding aar plugin dependency: /Users/avogt/carcasa/migracion/appcase_ns6.5.0/carcasa_bepass/obfuscaded/appcase/node_modules/nativescript-sms-inbox/platforms/android/nativescript_sms_inbox.aar
+         + adding aar plugin dependency: /Users/avogt/carcasa/migracion/appcase_ns6.5.0/carcasa_bepass/obfuscaded/appcase/node_modules/nativescript-unit-test-runner/platforms/android/nativescript_unit_test_runner.aar
+         + adding aar plugin dependency: /Users/avogt/carcasa/migracion/appcase_ns6.5.0/carcasa_bepass/obfuscaded/appcase/node_modules/nativescript-vt-token-plugin/platforms/android/net.veritran.vttoken.sdk-release.aar
+         + adding aar plugin dependency: /Users/avogt/carcasa/migracion/appcase_ns6.5.0/carcasa_bepass/obfuscaded/appcase/node_modules/nativescript-vt-token-plugin/platforms/android/nativescript_vt_token_plugin.aar
+         + adding jar plugin dependency: /Users/avogt/carcasa/migracion/appcase_ns6.5.0/carcasa_bepass/obfuscaded/appcase/node_modules/nativescript-webview-interface/platforms/android/WebViewInterface.jar
+         + adding aar plugin dependency: /Users/avogt/carcasa/migracion/appcase_ns6.5.0/carcasa_bepass/obfuscaded/appcase/node_modules/tns-core-modules-widgets/platforms/android/widgets-release.aar
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+ProGuard, version 6.0.3
+Reading input...
+Reading program jar [/Users/avogt/carcasa/migracion/appcase_ns6.5.0/carcasa_bepass/obfuscaded/appcase/plugins/nativescript-webview-interface/platforms/android/WebViewInterface.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.5.0/4b0bb6bfbecbdd42b97ff400af342bfe7f32bc83/okhttp-3.5.0.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/7dfc46024cf9a8924048a3003c6d014f/jetified-safetynethelper-0.3.0/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/4d93f2171c8e3fb83526f42a7a63546d/jetified-android-gif-drawable-1.2.19/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/3aa3352ee45c326887aab25ac361d3d0/material-1.0.0/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/7c06eb8d36b25a6f7210e7b44f3f484a/appcompat-1.0.2/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/aff23599326cecfa957234b3c7f44c01/cardview-1.0.0/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/48493499a1b9ec27617b6e0bff4498c8/browser-1.0.0/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/c0dd924557f15fbfbf0af933f4867d8a/jetified-firebase-messaging-20.1.0/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/98ed7ab76727b9c42808997388d8ea9b/legacy-support-v4-1.0.0/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/9d19fb91bc776d3ec5250b444ea054cf/jetified-play-services-safetynet-10.0.1/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/973ade86a8cdc470f8080bec3759529a/firebase-config-19.1.1/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/148068aea064b1e6a1fcef9d3f276d2c/firebase-abt-19.0.1/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/079bd4910f05319ba11058fa2ddeb816/firebase-iid-20.0.2/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/1eb8e69ed102a8473543dadf8db597fa/firebase-datatransport-17.0.3/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/031e779b34929682a4d9064f8b437147/jetified-firebase-common-19.3.0/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/285e141138c36213bcfa1fd6357a93ca/firebase-measurement-connector-18.0.0/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/9a81a67888c3064c78afabb8d9d5bd94/firebase-iid-interop-17.0.0/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/92519026f700508d5978e2dc18048a12/play-services-base-17.0.0/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/3962b75498585e153aa00fbd5adf438d/play-services-tasks-17.0.0/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/ac77e68ea8dee74f5490dfd691b2aee9/play-services-stats-17.0.0/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/c879bf467a6a0bdb284adb9403ac8d66/jetified-play-services-basement-17.0.0/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/c244bd7eabe007d7df26f12d95a8a0d3/fragment-1.0.0/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/378cb9dbcadcd56ed10dda0f0c15fa69/vectordrawable-animated-1.0.0/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/fcb6e4bcab882756526f99254e648759/recyclerview-1.0.0/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/080f4053f54c722fc53ff28c3af01305/legacy-support-core-ui-1.0.0/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/d9d23182ea9fe2b8b197c90c4c077d23/legacy-support-core-utils-1.0.0/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/91b9eae523ab6880d587ff5588114267/vectordrawable-1.0.1/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/557a9d372272776b6c6c1d7c9a1f0835/transition-1.0.0/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/d558d4253452d2d59aeb3032cb5cfcbc/media-1.0.0/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/ddcc43a689f470c248388940293581b5/loader-1.0.0/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/3fcba16ac8cdd1908fd276ecea21fdc1/viewpager-1.0.0/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/04278782e330138e733401599d1edfdb/coordinatorlayout-1.0.0/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/e3601a85a9d69e080b833c474f9f00b1/drawerlayout-1.0.0/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/ea700210395f8d9c11024ac6e398e0ca/slidingpanelayout-1.0.0/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/5a3ce9da9d1928e1442b21a346535935/customview-1.0.0/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/ed31a70d2c2bd6a5a5f708450e34d44b/swiperefreshlayout-1.0.0/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/c6b6d8179bf684be3f1f1dcc7c134068/asynclayoutinflater-1.0.0/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/b594768c66952293be4499a42e84cac6/core-1.0.1/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/d9ba1e3de57f55d365b02a77e5b1259e/hawk-2.0.1/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/4a7ae8d2947062d86e29c5a798e1df83/multidex-2.0.1/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/23b1784d882f20805fa93005254f674f/nativescript-optimized/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/26372f892a5ad6df7353fffbf774acfb/nativescript_barcodescanner/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/1d326a21790d8e26c1a4885d116dfc2a/jetified-barcodescanner-release-2.1.6/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/c8d0a876ce8edadaef651b94ba43683f/jetified-nativescript_camera/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/c6e94e4cc1c59987ad7dce72766ed285/nativescript_contacts_lite/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/f44467e8f63567af15d556128afaf8c9/nativescript_fingerprint_auth/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/c663c72ce585b20263cf83e863f456ff/app-debug/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/c663c72ce585b20263cf83e863f456ff/app-debug/jars/libs/classes-2.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/a021fd42624878c7be3993c449585b98/nativescript_plugin_entrust/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/5a9bf8c96bef5ba85956d28ab0d94f6e/firebase-release/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/33792fdb025654f0927aa4a077f3911f/nativescript_plugin_firebase/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/b3317494790feb07b8ec3e9a03acee6e/rootbeerlib-release/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/d03219ca462f91bf20cf5a461181b4ef/nativescript_sms_inbox/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/e3d8b292dd6b7485bfc8f5ff1a4970cb/nativescript_unit_test_runner/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/8b8895e66bac4f60191db844c27b84a5/net.veritran.vttoken.sdk-release/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/8b8895e66bac4f60191db844c27b84a5/net.veritran.vttoken.sdk-release/jars/libs/vttoken-sdk.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/f069b9797ab6d6bd9dc9a8a475b9ec68/nativescript_vt_token_plugin/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/88e70921ea2f9075ac1e7c71b5439c4b/widgets-release/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.11.0/840897fcd7223a8143f1d9b6f69714e7be34fd50/okio-1.11.0.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/12e657643cbb0bdec6b46778e9f51a30/relinker-1.3.1/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/7b2ec89247d91476eb5a5d8cfcb98b21/versionedparcelable-1.0.0/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.0.0/42858b26cafdaa69b6149f45dfc2894007bc2c7a/collection-1.0.0.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/5865dac5cf57dc9997b05ae539d84197/cursoradapter-1.0.0/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/93cd64fabbedacbee4c2d6f16ec68a1e/interpolator-1.0.0/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/d92acbb5eaf4c7de375b776382f33fae/jetified-firebase-components-16.0.0/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/693cea707002311f3109981ddfb5b858/transport-backend-cct-2.2.0/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/ab8ab26341f38ae1a72c977f82101a1e/transport-runtime-2.2.0/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/35758c9b7b0fe2640af4dd902996f828/firebase-encoders-json-16.0.0/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/8cddc2501231b9d8a3c3352e40cb5443/lifecycle-runtime-2.0.0/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/839e047bc343087616b3eadc00805ed4/documentfile-1.0.0/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/b597e99776a4e8c6f1e6f1a8dfa156aa/localbroadcastmanager-1.0.0/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/e716a17793145981682cd00dc348fcbe/print-1.0.0/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/8e4d0eebf0ec35adedfdce251df765fb/lifecycle-viewmodel-2.0.0/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/3280861465c2c844fc8afa63de836aa2/lifecycle-livedata-2.0.0/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/a3c94a21d1018730ea2b3e9860c78c39/lifecycle-livedata-core-2.0.0/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.0.0/e070ffae07452331bc5684734fce6831d531785c/lifecycle-common-2.0.0.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/d56a90bac050c2285b18da39c543e487/core-runtime-2.0.0/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.0.0/bb21b9a11761451b51624ac428d1f1bb5deeac38/core-common-2.0.0.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.1.0/e3a6fb2f40e3a3842e6b7472628ba4ce416ea4c8/annotation-1.1.0.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-lite/3.0.1/59b5b9c6e1a3054696d23492f888c1f8b583f5fc/protobuf-lite-3.0.1.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/36ccb262a3089ea05a23223ed18a2e2e/transport-api-2.2.0/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.4/695b63d702f505b9b916e02272e3b6381bade7f/gson-2.4.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/6fe2eff02e42d8633d12e8d94b56506a/conceal-1.1.3/jars/classes.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/modules-2/files-2.1/com.google.auto.value/auto-value-annotations/1.6.5/c3dad10377f0e2242c9a4b88e9704eaf79103679/auto-value-annotations-1.6.5.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/modules-2/files-2.1/com.google.dagger/dagger/2.24/97f35169621dd6a30d5958e8326e30f76ebe2e62/dagger-2.24.jar] (filtered)
+Reading program jar [/Users/avogt/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar] (filtered)
+Reading program directory [/Users/avogt/carcasa/migracion/appcase_ns6.5.0/carcasa_bepass/obfuscaded/appcase/platforms/android/app/build/intermediates/javac/release/classes] (filtered)
+Reading program jar [/Users/avogt/carcasa/migracion/appcase_ns6.5.0/carcasa_bepass/obfuscaded/appcase/platforms/android/app/build/intermediates/merged_java_res/release/out.jar] (filtered)
+Reading library jar [/Users/avogt/Library/Android/sdk/platforms/android-29/android.jar]
+Reading library jar [/Users/avogt/Library/Android/sdk/build-tools/29.0.2/core-lambda-stubs.jar]
+Reading library jar [/Users/avogt/Library/Android/sdk/platforms/android-29/optional/org.apache.http.legacy.jar]
+Reading library jar [/Users/avogt/Library/Android/sdk/platforms/android-29/optional/android.car.jar]
+Reading library jar [/Users/avogt/Library/Android/sdk/platforms/android-29/optional/android.test.mock.jar]
+Reading library jar [/Users/avogt/Library/Android/sdk/platforms/android-29/optional/android.test.base.jar]
+Reading library jar [/Users/avogt/Library/Android/sdk/platforms/android-29/optional/android.test.runner.jar]
+Initializing...
+Note: the configuration refers to the unknown class 'com.tns.ErrorReportActivity'
+Note: the configuration refers to the unknown class 'com.tns.ErrorReportActivity'
+Note: com.entrust.identityGuard.mobile.crypto.android.PRNGFixes: can't find dynamically referenced class org.apache.harmony.xnet.provider.jsse.NativeCrypto
+Note: com.entrust.identityGuard.mobile.crypto.android.PRNGFixes: can't find dynamically referenced class org.apache.harmony.xnet.provider.jsse.NativeCrypto
+Note: com.entrust.identityGuard.mobile.sdk.a: can't find dynamically referenced class com.facephi.sdk.matcher.MatcherLicenseManager
+Note: com.entrust.identityGuard.mobile.sdk.rootcheck.b: can't find dynamically referenced class cyanogenmod.os.Build
+Note: com.facebook.android.crypto.keychain.SecureRandomFix: can't find dynamically referenced class org.apache.harmony.xnet.provider.jsse.NativeCrypto
+Note: com.facebook.android.crypto.keychain.SecureRandomFix: can't find dynamically referenced class org.apache.harmony.xnet.provider.jsse.NativeCrypto
+Note: there were 2 references to unknown classes.
+      You should check your configuration for typos.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#unknownclass)
+Note: there were 6 unresolved dynamic references to classes or interfaces.
+      You should check if you need to specify additional program jars.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclass)
+Ignoring unused library classes...
+  Original number of library classes: 5033
+  Final number of library classes:    1749
+Printing kept classes, fields, and methods...
+Inlining subroutines...
+Shrinking...
+Printing usage to [/Users/avogt/carcasa/migracion/appcase_ns6.5.0/carcasa_bepass/obfuscaded/appcase/platforms/android/app/build/outputs/mapping/release/usage.txt]...
+Removing unused program classes and class elements...
+  Original number of program classes: 5640
+  Final number of program classes:    3081
+Optimizing (pass 1/5)...
+  Number of finalized classes:                   932
+  Number of unboxed enum classes:                10
+  Number of vertically merged classes:           0   (disabled)
+  Number of horizontally merged classes:         0   (disabled)
+  Number of merged wrapper classes:              0   (disabled)
+  Number of removed write-only fields:           0   (disabled)
+  Number of privatized fields:                   0   (disabled)
+  Number of inlined constant fields:             0   (disabled)
+  Number of privatized methods:                  941
+  Number of staticized methods:                  484
+  Number of finalized methods:                   6850
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        399
+  Number of removed method parameters:           476
+  Number of inlined constant parameters:         228
+  Number of inlined constant return values:      74
+  Number of inlined short method calls:          3304
+  Number of inlined unique method calls:         2243
+  Number of inlined tail recursion calls:        13
+  Number of merged code blocks:                  89
+  Number of variable peephole optimizations:     12938
+  Number of arithmetic peephole optimizations:   0   (disabled)
+  Number of cast peephole optimizations:         0   (disabled)
+  Number of field peephole optimizations:        95
+  Number of branch peephole optimizations:       3027
+  Number of object peephole optimizations:       38
+  Number of string peephole optimizations:       834
+  Number of math peephole optimizations:         0
+  Number of simplified instructions:             1105
+  Number of removed instructions:                5464
+  Number of removed local variables:             405
+  Number of removed exception blocks:            177
+  Number of optimized local variable frames:     4061
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes: 3081
+  Final number of program classes:    2993
+Optimizing (pass 2/5)...
+  Number of finalized classes:                   0
+  Number of unboxed enum classes:                0
+  Number of vertically merged classes:           0   (disabled)
+  Number of horizontally merged classes:         0   (disabled)
+  Number of merged wrapper classes:              0   (disabled)
+  Number of removed write-only fields:           0   (disabled)
+  Number of privatized fields:                   0   (disabled)
+  Number of inlined constant fields:             0   (disabled)
+  Number of privatized methods:                  4
+  Number of staticized methods:                  19
+  Number of finalized methods:                   79
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        276
+  Number of removed method parameters:           317
+  Number of inlined constant parameters:         188
+  Number of inlined constant return values:      26
+  Number of inlined short method calls:          32
+  Number of inlined unique method calls:         101
+  Number of inlined tail recursion calls:        6
+  Number of merged code blocks:                  10
+  Number of variable peephole optimizations:     912
+  Number of arithmetic peephole optimizations:   0   (disabled)
+  Number of cast peephole optimizations:         0   (disabled)
+  Number of field peephole optimizations:        0
+  Number of branch peephole optimizations:       86
+  Number of object peephole optimizations:       3
+  Number of string peephole optimizations:       199
+  Number of math peephole optimizations:         0
+  Number of simplified instructions:             357
+  Number of removed instructions:                10678
+  Number of removed local variables:             278
+  Number of removed exception blocks:            0
+  Number of optimized local variable frames:     234
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes: 2993
+  Final number of program classes:    2992
+Optimizing (pass 3/5)...
+  Number of finalized classes:                   0
+  Number of unboxed enum classes:                0
+  Number of vertically merged classes:           0   (disabled)
+  Number of horizontally merged classes:         0   (disabled)
+  Number of merged wrapper classes:              0   (disabled)
+  Number of removed write-only fields:           0   (disabled)
+  Number of privatized fields:                   0   (disabled)
+  Number of inlined constant fields:             0   (disabled)
+  Number of privatized methods:                  0
+  Number of staticized methods:                  4
+  Number of finalized methods:                   14
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        61
+  Number of removed method parameters:           65
+  Number of inlined constant parameters:         49
+  Number of inlined constant return values:      25
+  Number of inlined short method calls:          0
+  Number of inlined unique method calls:         8
+  Number of inlined tail recursion calls:        0
+  Number of merged code blocks:                  1
+  Number of variable peephole optimizations:     132
+  Number of arithmetic peephole optimizations:   0   (disabled)
+  Number of cast peephole optimizations:         0   (disabled)
+  Number of field peephole optimizations:        0
+  Number of branch peephole optimizations:       20
+  Number of object peephole optimizations:       0
+  Number of string peephole optimizations:       3
+  Number of math peephole optimizations:         0
+  Number of simplified instructions:             41
+  Number of removed instructions:                1051
+  Number of removed local variables:             16
+  Number of removed exception blocks:            0
+  Number of optimized local variable frames:     40
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes: 2992
+  Final number of program classes:    2991
+Optimizing (pass 4/5)...
+  Number of finalized classes:                   0
+  Number of unboxed enum classes:                0
+  Number of vertically merged classes:           0   (disabled)
+  Number of horizontally merged classes:         0   (disabled)
+  Number of merged wrapper classes:              0   (disabled)
+  Number of removed write-only fields:           0   (disabled)
+  Number of privatized fields:                   0   (disabled)
+  Number of inlined constant fields:             0   (disabled)
+  Number of privatized methods:                  0
+  Number of staticized methods:                  0
+  Number of finalized methods:                   1
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        14
+  Number of removed method parameters:           14
+  Number of inlined constant parameters:         17
+  Number of inlined constant return values:      25
+  Number of inlined short method calls:          0
+  Number of inlined unique method calls:         0
+  Number of inlined tail recursion calls:        0
+  Number of merged code blocks:                  1
+  Number of variable peephole optimizations:     41
+  Number of arithmetic peephole optimizations:   0   (disabled)
+  Number of cast peephole optimizations:         0   (disabled)
+  Number of field peephole optimizations:        0
+  Number of branch peephole optimizations:       1
+  Number of object peephole optimizations:       0
+  Number of string peephole optimizations:       1
+  Number of math peephole optimizations:         0
+  Number of simplified instructions:             8
+  Number of removed instructions:                81
+  Number of removed local variables:             0
+  Number of removed exception blocks:            0
+  Number of optimized local variable frames:     4
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes: 2991
+  Final number of program classes:    2991
+Optimizing (pass 5/5)...
+  Number of finalized classes:                   0
+  Number of unboxed enum classes:                0
+  Number of vertically merged classes:           0   (disabled)
+  Number of horizontally merged classes:         0   (disabled)
+  Number of merged wrapper classes:              0   (disabled)
+  Number of removed write-only fields:           0   (disabled)
+  Number of privatized fields:                   0   (disabled)
+  Number of inlined constant fields:             0   (disabled)
+  Number of privatized methods:                  0
+  Number of staticized methods:                  0
+  Number of finalized methods:                   0
+  Number of desynchronized methods:              0
+  Number of simplified method signatures:        3
+  Number of removed method parameters:           3
+  Number of inlined constant parameters:         12
+  Number of inlined constant return values:      25
+  Number of inlined short method calls:          0
+  Number of inlined unique method calls:         0
+  Number of inlined tail recursion calls:        0
+  Number of merged code blocks:                  0
+  Number of variable peephole optimizations:     11
+  Number of arithmetic peephole optimizations:   0   (disabled)
+  Number of cast peephole optimizations:         0   (disabled)
+  Number of field peephole optimizations:        0
+  Number of branch peephole optimizations:       0
+  Number of object peephole optimizations:       0
+  Number of string peephole optimizations:       0
+  Number of math peephole optimizations:         0
+  Number of simplified instructions:             3
+  Number of removed instructions:                25
+  Number of removed local variables:             0
+  Number of removed exception blocks:            0
+  Number of optimized local variable frames:     1
+Shrinking...
+Removing unused program classes and class elements...
+  Original number of program classes: 2991
+  Final number of program classes:    2991
+Preverifying...
+Writing output...
+Preparing output jar [/Users/avogt/carcasa/migracion/appcase_ns6.5.0/carcasa_bepass/obfuscaded/appcase/platforms/android/app/build/intermediates/transforms/proguard/release/0.jar]
+  Copying resources from program jar [/Users/avogt/carcasa/migracion/appcase_ns6.5.0/carcasa_bepass/obfuscaded/appcase/plugins/nativescript-webview-interface/platforms/android/WebViewInterface.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.5.0/4b0bb6bfbecbdd42b97ff400af342bfe7f32bc83/okhttp-3.5.0.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/7dfc46024cf9a8924048a3003c6d014f/jetified-safetynethelper-0.3.0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/4d93f2171c8e3fb83526f42a7a63546d/jetified-android-gif-drawable-1.2.19/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/3aa3352ee45c326887aab25ac361d3d0/material-1.0.0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/7c06eb8d36b25a6f7210e7b44f3f484a/appcompat-1.0.2/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/aff23599326cecfa957234b3c7f44c01/cardview-1.0.0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/48493499a1b9ec27617b6e0bff4498c8/browser-1.0.0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/c0dd924557f15fbfbf0af933f4867d8a/jetified-firebase-messaging-20.1.0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/98ed7ab76727b9c42808997388d8ea9b/legacy-support-v4-1.0.0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/9d19fb91bc776d3ec5250b444ea054cf/jetified-play-services-safetynet-10.0.1/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/973ade86a8cdc470f8080bec3759529a/firebase-config-19.1.1/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/148068aea064b1e6a1fcef9d3f276d2c/firebase-abt-19.0.1/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/079bd4910f05319ba11058fa2ddeb816/firebase-iid-20.0.2/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/1eb8e69ed102a8473543dadf8db597fa/firebase-datatransport-17.0.3/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/031e779b34929682a4d9064f8b437147/jetified-firebase-common-19.3.0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/285e141138c36213bcfa1fd6357a93ca/firebase-measurement-connector-18.0.0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/9a81a67888c3064c78afabb8d9d5bd94/firebase-iid-interop-17.0.0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/92519026f700508d5978e2dc18048a12/play-services-base-17.0.0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/3962b75498585e153aa00fbd5adf438d/play-services-tasks-17.0.0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/ac77e68ea8dee74f5490dfd691b2aee9/play-services-stats-17.0.0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/c879bf467a6a0bdb284adb9403ac8d66/jetified-play-services-basement-17.0.0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/c244bd7eabe007d7df26f12d95a8a0d3/fragment-1.0.0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/378cb9dbcadcd56ed10dda0f0c15fa69/vectordrawable-animated-1.0.0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/fcb6e4bcab882756526f99254e648759/recyclerview-1.0.0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/080f4053f54c722fc53ff28c3af01305/legacy-support-core-ui-1.0.0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/d9d23182ea9fe2b8b197c90c4c077d23/legacy-support-core-utils-1.0.0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/91b9eae523ab6880d587ff5588114267/vectordrawable-1.0.1/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/557a9d372272776b6c6c1d7c9a1f0835/transition-1.0.0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/d558d4253452d2d59aeb3032cb5cfcbc/media-1.0.0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/ddcc43a689f470c248388940293581b5/loader-1.0.0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/3fcba16ac8cdd1908fd276ecea21fdc1/viewpager-1.0.0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/04278782e330138e733401599d1edfdb/coordinatorlayout-1.0.0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/e3601a85a9d69e080b833c474f9f00b1/drawerlayout-1.0.0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/ea700210395f8d9c11024ac6e398e0ca/slidingpanelayout-1.0.0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/5a3ce9da9d1928e1442b21a346535935/customview-1.0.0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/ed31a70d2c2bd6a5a5f708450e34d44b/swiperefreshlayout-1.0.0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/c6b6d8179bf684be3f1f1dcc7c134068/asynclayoutinflater-1.0.0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/b594768c66952293be4499a42e84cac6/core-1.0.1/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/d9ba1e3de57f55d365b02a77e5b1259e/hawk-2.0.1/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/4a7ae8d2947062d86e29c5a798e1df83/multidex-2.0.1/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/23b1784d882f20805fa93005254f674f/nativescript-optimized/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/26372f892a5ad6df7353fffbf774acfb/nativescript_barcodescanner/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/1d326a21790d8e26c1a4885d116dfc2a/jetified-barcodescanner-release-2.1.6/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/c8d0a876ce8edadaef651b94ba43683f/jetified-nativescript_camera/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/c6e94e4cc1c59987ad7dce72766ed285/nativescript_contacts_lite/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/f44467e8f63567af15d556128afaf8c9/nativescript_fingerprint_auth/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/c663c72ce585b20263cf83e863f456ff/app-debug/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/c663c72ce585b20263cf83e863f456ff/app-debug/jars/libs/classes-2.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/a021fd42624878c7be3993c449585b98/nativescript_plugin_entrust/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/5a9bf8c96bef5ba85956d28ab0d94f6e/firebase-release/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/33792fdb025654f0927aa4a077f3911f/nativescript_plugin_firebase/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/b3317494790feb07b8ec3e9a03acee6e/rootbeerlib-release/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/d03219ca462f91bf20cf5a461181b4ef/nativescript_sms_inbox/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/e3d8b292dd6b7485bfc8f5ff1a4970cb/nativescript_unit_test_runner/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/8b8895e66bac4f60191db844c27b84a5/net.veritran.vttoken.sdk-release/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/8b8895e66bac4f60191db844c27b84a5/net.veritran.vttoken.sdk-release/jars/libs/vttoken-sdk.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/f069b9797ab6d6bd9dc9a8a475b9ec68/nativescript_vt_token_plugin/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/88e70921ea2f9075ac1e7c71b5439c4b/widgets-release/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.11.0/840897fcd7223a8143f1d9b6f69714e7be34fd50/okio-1.11.0.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/12e657643cbb0bdec6b46778e9f51a30/relinker-1.3.1/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/7b2ec89247d91476eb5a5d8cfcb98b21/versionedparcelable-1.0.0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.0.0/42858b26cafdaa69b6149f45dfc2894007bc2c7a/collection-1.0.0.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/5865dac5cf57dc9997b05ae539d84197/cursoradapter-1.0.0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/93cd64fabbedacbee4c2d6f16ec68a1e/interpolator-1.0.0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/d92acbb5eaf4c7de375b776382f33fae/jetified-firebase-components-16.0.0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/693cea707002311f3109981ddfb5b858/transport-backend-cct-2.2.0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/ab8ab26341f38ae1a72c977f82101a1e/transport-runtime-2.2.0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/35758c9b7b0fe2640af4dd902996f828/firebase-encoders-json-16.0.0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/8cddc2501231b9d8a3c3352e40cb5443/lifecycle-runtime-2.0.0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/839e047bc343087616b3eadc00805ed4/documentfile-1.0.0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/b597e99776a4e8c6f1e6f1a8dfa156aa/localbroadcastmanager-1.0.0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/e716a17793145981682cd00dc348fcbe/print-1.0.0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/8e4d0eebf0ec35adedfdce251df765fb/lifecycle-viewmodel-2.0.0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/3280861465c2c844fc8afa63de836aa2/lifecycle-livedata-2.0.0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/a3c94a21d1018730ea2b3e9860c78c39/lifecycle-livedata-core-2.0.0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.0.0/e070ffae07452331bc5684734fce6831d531785c/lifecycle-common-2.0.0.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/d56a90bac050c2285b18da39c543e487/core-runtime-2.0.0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.0.0/bb21b9a11761451b51624ac428d1f1bb5deeac38/core-common-2.0.0.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.1.0/e3a6fb2f40e3a3842e6b7472628ba4ce416ea4c8/annotation-1.1.0.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-lite/3.0.1/59b5b9c6e1a3054696d23492f888c1f8b583f5fc/protobuf-lite-3.0.1.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/36ccb262a3089ea05a23223ed18a2e2e/transport-api-2.2.0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.4/695b63d702f505b9b916e02272e3b6381bade7f/gson-2.4.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/transforms-2/files-2.1/6fe2eff02e42d8633d12e8d94b56506a/conceal-1.1.3/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/modules-2/files-2.1/com.google.auto.value/auto-value-annotations/1.6.5/c3dad10377f0e2242c9a4b88e9704eaf79103679/auto-value-annotations-1.6.5.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/modules-2/files-2.1/com.google.dagger/dagger/2.24/97f35169621dd6a30d5958e8326e30f76ebe2e62/dagger-2.24.jar] (filtered)
+  Copying resources from program jar [/Users/avogt/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar] (filtered)
+  Copying resources from program directory [/Users/avogt/carcasa/migracion/appcase_ns6.5.0/carcasa_bepass/obfuscaded/appcase/platforms/android/app/build/intermediates/javac/release/classes] (filtered)
+  Copying resources from program jar [/Users/avogt/carcasa/migracion/appcase_ns6.5.0/carcasa_bepass/obfuscaded/appcase/platforms/android/app/build/intermediates/merged_java_res/release/out.jar] (filtered)
+Project successfully built.
+The build result is located at: /Users/avogt/carcasa/migracion/appcase_ns6.5.0/carcasa_bepass/obfuscaded/appcase/platforms/android/app/build/outputs/apk/release/app-release.apk
+Installing on device emulator-5554...
+Successfully installed on device with identifier 'emulator-5554'.
